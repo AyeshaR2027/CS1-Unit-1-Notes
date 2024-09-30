@@ -1,2 +1,34 @@
+/* This is a CSS COMMENT*/
 
+/* Select elements by TYPE*/
+h1,h2,h3,h4,h5,h6 {
+    color: darkred;
+    font-family: cursive
 
+}  
+
+p{
+    color:crimson
+}
+
+li{
+    color:crimson
+}
+
+ul{
+    color:aquamarine
+}
+
+/*Select elements by CLASS NAME*/
+.border {
+    border: 2px solid black
+}
+
+.ul{
+    border: 4px solid black
+}
+/*Select unique element by ID NAME*/
+
+#intro{
+    background-color:blanchedalmond
+}
