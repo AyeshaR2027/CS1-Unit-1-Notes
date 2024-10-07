@@ -1,27 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Sixtyfour+Convergence&display=swap');
 /* This is a CSS COMMENT*/
 
 /* Select elements by TYPE*/
+body{
+    background-color:black;
+    font-family:"Sixtyfour Convergence", sans-serif;
+}
+
+
+
 h1,h2,h3,h4,h5,h6 {
     color: darkred;
-    font-family: cursive
+    font-family:"Sixtyfour Convergence", sans-serif;
 
 }  
-
+h1{
+    text-align: center;
+}
 p{
-    color:crimson
+    color:crimson;
+    font-family:"Afacad Flux", sans-serif;
 }
 
 li{
-    color:crimson
+    color:crimson;
+    font-family:"Afacad Flux", sans-serif;
 }
 
 ul{
-    color:aquamarine
+    color:aquamarine;
+    font-family:"Sixtyfour Convergence", sans-serif;
 }
 
 /*Select elements by CLASS NAME*/
 .border {
-    border: 2px solid black
+    border: 2px solid black;
+    background:orange
 }
 
 .ul{
@@ -30,5 +45,18 @@ ul{
 /*Select unique element by ID NAME*/
 
 #intro{
-    background-color:blanchedalmond
+    background-color:orange;
 }
+
+/*Properties: colors and typography*/
+strong{
+    color:black; 
+    background-color:aqua;
+    font-family:"Sixtyfour Convergence", sans-serif;
+    font-weight:100; 
+    font-style: italic; 
+    font-size: 18px; 
+
+}
+   
+/*Font weight is an option depends on font*/
