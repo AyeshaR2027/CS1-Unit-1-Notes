@@ -60,3 +60,17 @@ strong{
 }
    
 /*Font weight is an option depends on font*/
+
+/*Box Model: margin, border, padding, content*/ 
+img{
+    border-width: 13px; 
+    border-style: groove;
+    border-color: orangered; 
+    border-radius: 35%;  
+    padding: 9px; 
+}
+
+.centered{
+    margin: auto; 
+    text-align: center; 
+}
